@@ -1,0 +1,48 @@
+/* ---
+--- 01 TYPOGRAPHY SYSTEM
+   - Font sizes (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--- WHITESPACE
+   - SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(#252930 50%, #5372f0 50%);
+}
+
+button {
+  font-size: 5rem;
+  padding: 2.4rem 4.8rem;
+  background-color: rgb(244, 244, 244);
+  color: #5372f0;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #dde3fc;
+  color: #3a50a8;
+}
